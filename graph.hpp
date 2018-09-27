@@ -27,6 +27,7 @@ public:
 	void print();
 	bool is_connected();
 	bool connected_component();
+
 private:
 	void DFS(int);
 	void BK(std::vector<int> , std::vector<int>, std::vector<int>);
